@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		808EC549213DE14400124405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EC548213DE14400124405 /* AppDelegate.swift */; };
+		808EC54B213DE14400124405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EC54A213DE14400124405 /* ViewController.swift */; };
+		808EC54E213DE14400124405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808EC54C213DE14400124405 /* Main.storyboard */; };
+		808EC551213DE14400124405 /* ConnectOmaha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 808EC54F213DE14400124405 /* ConnectOmaha.xcdatamodeld */; };
+		808EC553213DE14700124405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808EC552213DE14700124405 /* Assets.xcassets */; };
+		808EC556213DE14700124405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808EC554213DE14700124405 /* LaunchScreen.storyboard */; };
+		808EC561213DE14700124405 /* ConnectOmahaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EC560213DE14700124405 /* ConnectOmahaTests.swift */; };
+		808EC56C213DE14700124405 /* ConnectOmahaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EC56B213DE14700124405 /* ConnectOmahaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		808EC55D213DE14700124405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 808EC53D213DE14400124405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808EC544213DE14400124405;
+			remoteInfo = ConnectOmaha;
+		};
+		808EC568213DE14700124405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 808EC53D213DE14400124405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808EC544213DE14400124405;
+			remoteInfo = ConnectOmaha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		808EC545213DE14400124405 /* ConnectOmaha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectOmaha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		808EC548213DE14400124405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		808EC54A213DE14400124405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		808EC54D213DE14400124405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		808EC550213DE14400124405 /* ConnectOmaha.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConnectOmaha.xcdatamodel; sourceTree = "<group>"; };
+		808EC552213DE14700124405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		808EC555213DE14700124405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		808EC557213DE14700124405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808EC55C213DE14700124405 /* ConnectOmahaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectOmahaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		808EC560213DE14700124405 /* ConnectOmahaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectOmahaTests.swift; sourceTree = "<group>"; };
+		808EC562213DE14700124405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808EC567213DE14700124405 /* ConnectOmahaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectOmahaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		808EC56B213DE14700124405 /* ConnectOmahaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectOmahaUITests.swift; sourceTree = "<group>"; };
+		808EC56D213DE14700124405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		808EC542213DE14400124405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808EC559213DE14700124405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808EC564213DE14700124405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		808EC53C213DE14400124405 = {
+			isa = PBXGroup;
+			children = (
+				808EC547213DE14400124405 /* ConnectOmaha */,
+				808EC55F213DE14700124405 /* ConnectOmahaTests */,
+				808EC56A213DE14700124405 /* ConnectOmahaUITests */,
+				808EC546213DE14400124405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		808EC546213DE14400124405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				808EC545213DE14400124405 /* ConnectOmaha.app */,
+				808EC55C213DE14700124405 /* ConnectOmahaTests.xctest */,
+				808EC567213DE14700124405 /* ConnectOmahaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		808EC547213DE14400124405 /* ConnectOmaha */ = {
+			isa = PBXGroup;
+			children = (
+				808EC548213DE14400124405 /* AppDelegate.swift */,
+				808EC54A213DE14400124405 /* ViewController.swift */,
+				808EC54C213DE14400124405 /* Main.storyboard */,
+				808EC552213DE14700124405 /* Assets.xcassets */,
+				808EC554213DE14700124405 /* LaunchScreen.storyboard */,
+				808EC557213DE14700124405 /* Info.plist */,
+				808EC54F213DE14400124405 /* ConnectOmaha.xcdatamodeld */,
+			);
+			path = ConnectOmaha;
+			sourceTree = "<group>";
+		};
+		808EC55F213DE14700124405 /* ConnectOmahaTests */ = {
+			isa = PBXGroup;
+			children = (
+				808EC560213DE14700124405 /* ConnectOmahaTests.swift */,
+				808EC562213DE14700124405 /* Info.plist */,
+			);
+			path = ConnectOmahaTests;
+			sourceTree = "<group>";
+		};
+		808EC56A213DE14700124405 /* ConnectOmahaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				808EC56B213DE14700124405 /* ConnectOmahaUITests.swift */,
+				808EC56D213DE14700124405 /* Info.plist */,
+			);
+			path = ConnectOmahaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		808EC544213DE14400124405 /* ConnectOmaha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808EC570213DE14700124405 /* Build configuration list for PBXNativeTarget "ConnectOmaha" */;
+			buildPhases = (
+				808EC541213DE14400124405 /* Sources */,
+				808EC542213DE14400124405 /* Frameworks */,
+				808EC543213DE14400124405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnectOmaha;
+			productName = ConnectOmaha;
+			productReference = 808EC545213DE14400124405 /* ConnectOmaha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		808EC55B213DE14700124405 /* ConnectOmahaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808EC573213DE14700124405 /* Build configuration list for PBXNativeTarget "ConnectOmahaTests" */;
+			buildPhases = (
+				808EC558213DE14700124405 /* Sources */,
+				808EC559213DE14700124405 /* Frameworks */,
+				808EC55A213DE14700124405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808EC55E213DE14700124405 /* PBXTargetDependency */,
+			);
+			name = ConnectOmahaTests;
+			productName = ConnectOmahaTests;
+			productReference = 808EC55C213DE14700124405 /* ConnectOmahaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		808EC566213DE14700124405 /* ConnectOmahaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808EC576213DE14700124405 /* Build configuration list for PBXNativeTarget "ConnectOmahaUITests" */;
+			buildPhases = (
+				808EC563213DE14700124405 /* Sources */,
+				808EC564213DE14700124405 /* Frameworks */,
+				808EC565213DE14700124405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808EC569213DE14700124405 /* PBXTargetDependency */,
+			);
+			name = ConnectOmahaUITests;
+			productName = ConnectOmahaUITests;
+			productReference = 808EC567213DE14700124405 /* ConnectOmahaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		808EC53D213DE14400124405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Lauren Shultz";
+				TargetAttributes = {
+					808EC544213DE14400124405 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					808EC55B213DE14700124405 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 808EC544213DE14400124405;
+					};
+					808EC566213DE14700124405 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 808EC544213DE14400124405;
+					};
+				};
+			};
+			buildConfigurationList = 808EC540213DE14400124405 /* Build configuration list for PBXProject "ConnectOmaha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 808EC53C213DE14400124405;
+			productRefGroup = 808EC546213DE14400124405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				808EC544213DE14400124405 /* ConnectOmaha */,
+				808EC55B213DE14700124405 /* ConnectOmahaTests */,
+				808EC566213DE14700124405 /* ConnectOmahaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		808EC543213DE14400124405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808EC556213DE14700124405 /* LaunchScreen.storyboard in Resources */,
+				808EC553213DE14700124405 /* Assets.xcassets in Resources */,
+				808EC54E213DE14400124405 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808EC55A213DE14700124405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808EC565213DE14700124405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		808EC541213DE14400124405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808EC54B213DE14400124405 /* ViewController.swift in Sources */,
+				808EC551213DE14400124405 /* ConnectOmaha.xcdatamodeld in Sources */,
+				808EC549213DE14400124405 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808EC558213DE14700124405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808EC561213DE14700124405 /* ConnectOmahaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808EC563213DE14700124405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808EC56C213DE14700124405 /* ConnectOmahaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		808EC55E213DE14700124405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808EC544213DE14400124405 /* ConnectOmaha */;
+			targetProxy = 808EC55D213DE14700124405 /* PBXContainerItemProxy */;
+		};
+		808EC569213DE14700124405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808EC544213DE14400124405 /* ConnectOmaha */;
+			targetProxy = 808EC568213DE14700124405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		808EC54C213DE14400124405 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808EC54D213DE14400124405 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		808EC554213DE14700124405 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808EC555213DE14700124405 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		808EC56E213DE14700124405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		808EC56F213DE14700124405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		808EC571213DE14700124405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConnectOmaha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lodev.ConnectOmaha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		808EC572213DE14700124405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConnectOmaha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lodev.ConnectOmaha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		808EC574213DE14700124405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConnectOmahaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lodev.ConnectOmahaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectOmaha.app/ConnectOmaha";
+			};
+			name = Debug;
+		};
+		808EC575213DE14700124405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConnectOmahaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lodev.ConnectOmahaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectOmaha.app/ConnectOmaha";
+			};
+			name = Release;
+		};
+		808EC577213DE14700124405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConnectOmahaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lodev.ConnectOmahaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConnectOmaha;
+			};
+			name = Debug;
+		};
+		808EC578213DE14700124405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConnectOmahaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lodev.ConnectOmahaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConnectOmaha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		808EC540213DE14400124405 /* Build configuration list for PBXProject "ConnectOmaha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808EC56E213DE14700124405 /* Debug */,
+				808EC56F213DE14700124405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808EC570213DE14700124405 /* Build configuration list for PBXNativeTarget "ConnectOmaha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808EC571213DE14700124405 /* Debug */,
+				808EC572213DE14700124405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808EC573213DE14700124405 /* Build configuration list for PBXNativeTarget "ConnectOmahaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808EC574213DE14700124405 /* Debug */,
+				808EC575213DE14700124405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808EC576213DE14700124405 /* Build configuration list for PBXNativeTarget "ConnectOmahaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808EC577213DE14700124405 /* Debug */,
+				808EC578213DE14700124405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		808EC54F213DE14400124405 /* ConnectOmaha.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				808EC550213DE14400124405 /* ConnectOmaha.xcdatamodel */,
+			);
+			currentVersion = 808EC550213DE14400124405 /* ConnectOmaha.xcdatamodel */;
+			path = ConnectOmaha.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 808EC53D213DE14400124405 /* Project object */;
+}
