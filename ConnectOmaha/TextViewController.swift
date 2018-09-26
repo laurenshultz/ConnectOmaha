@@ -1,32 +1,30 @@
 //
-//  ViewController.swift
+//  TextViewController.swift
 //  ConnectOmaha
 //
-//  Created by Lauren Shultz on 9/3/18.
+//  Created by Lauren Shultz on 9/25/18.
 //  Copyright © 2018 Lauren Shultz. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class TextViewController: UIViewController {
 
-    // This is the link to search events
-    @IBOutlet weak var searchField: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+     
     }
     
-    @IBAction func searchButtonClicked(_ sender: Any) {
+    @IBAction func sendMessage(_ sender: Any) {
         
     }
+    @IBOutlet weak var TextBar: UITextField!
     
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    
+       
     }
-
-
+    
 }
-

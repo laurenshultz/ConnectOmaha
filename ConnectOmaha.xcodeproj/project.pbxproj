@@ -15,6 +15,8 @@
 		808EC556213DE14700124405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808EC554213DE14700124405 /* LaunchScreen.storyboard */; };
 		808EC561213DE14700124405 /* ConnectOmahaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EC560213DE14700124405 /* ConnectOmahaTests.swift */; };
 		808EC56C213DE14700124405 /* ConnectOmahaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EC56B213DE14700124405 /* ConnectOmahaUITests.swift */; };
+		808EC5BE215440BC00124405 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EC5BD215440BC00124405 /* MapViewController.swift */; };
+		808EC5C0215ADD6A00124405 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EC5BF215ADD6A00124405 /* TextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		808EC567213DE14700124405 /* ConnectOmahaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectOmahaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		808EC56B213DE14700124405 /* ConnectOmahaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectOmahaUITests.swift; sourceTree = "<group>"; };
 		808EC56D213DE14700124405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808EC5BD215440BC00124405 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		808EC5BF215ADD6A00124405 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				808EC548213DE14400124405 /* AppDelegate.swift */,
 				808EC54A213DE14400124405 /* ViewController.swift */,
 				808EC54C213DE14400124405 /* Main.storyboard */,
+				808EC5BF215ADD6A00124405 /* TextViewController.swift */,
+				808EC5BD215440BC00124405 /* MapViewController.swift */,
 				808EC552213DE14700124405 /* Assets.xcassets */,
 				808EC554213DE14700124405 /* LaunchScreen.storyboard */,
 				808EC557213DE14700124405 /* Info.plist */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808EC5C0215ADD6A00124405 /* TextViewController.swift in Sources */,
 				808EC54B213DE14400124405 /* ViewController.swift in Sources */,
 				808EC551213DE14400124405 /* ConnectOmaha.xcdatamodeld in Sources */,
 				808EC549213DE14400124405 /* AppDelegate.swift in Sources */,
+				808EC5BE215440BC00124405 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +442,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BR3Q5746G9;
 				INFOPLIST_FILE = ConnectOmaha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +461,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BR3Q5746G9;
 				INFOPLIST_FILE = ConnectOmaha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
